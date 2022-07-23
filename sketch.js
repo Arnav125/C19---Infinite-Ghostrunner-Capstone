@@ -59,7 +59,7 @@ function draw() {
     ghost.velocityY = 0
   }
 
-  if(invisibleBlockGroup.isTouching(ghost) || ghost.y > 600) || ghost.y <0{
+  if(invisibleBlockGroup.isTouching(ghost) || ghost.y > 600){
     ghost.destroy();
     gameState = "end"
   }
